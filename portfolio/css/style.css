@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    color: #5b687b;
+    font-family: 'Inter', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.mb {
+margin-bottom: 50px;
+}
+.navbar-logo {
+    height: 56px;
+    padding: 4px 0px;
+}
+.nav-link {
+    display: inline;
+    float: right;
+    height: 36px;
+}
+.navbar-element{
+    display: inline;
+    padding: 4px;
+    margin-right: 10px;
+}
