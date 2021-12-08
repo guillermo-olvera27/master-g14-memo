@@ -14,14 +14,27 @@ margin-bottom: 50px;
 .navbar-logo {
     height: 56px;
     padding: 4px 0px;
+    
 }
 .nav-link {
     display: inline;
     float: right;
     height: 36px;
+    text-decoration: none;
 }
 .navbar-element{
     display: inline;
     padding: 4px;
     margin-right: 10px;
+    
+}
+.pic-header {
+    width: 25%;
+    border-radius: 50%;
+    border: 5px solid #dee0e4;
+}
+.header-container{
+    display: inline;
+     position: absolute;
+      padding: 15px 50px 15px;
 }
