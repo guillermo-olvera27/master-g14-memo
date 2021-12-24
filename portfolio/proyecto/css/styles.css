@@ -21,8 +21,64 @@ padding: 0px 24px 0px 24px;
 }
 .navbar-link-item{
     text-decoration: none;
-}
-.navbar-link-item:hover{
-    color: black;
+    color: #4b5ebe;
 }
 
+.navbar-link-item:hover {
+    color: black;
+}
+.header-background {
+  /* background-image: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;*/
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+}
+.header-container {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+
+}
+.header-content {
+    padding-left: 2rem;
+}
+.header-title {
+    color:  #005256;
+}
+.header-story {
+    color:  #00e7f3;
+}
+.header-name {
+    color:  #a1abdd;
+}
+.avatar-header {
+    height: 250px;
+    border-radius:50% ;
+    border: 5px solid #2ebf91 ;
+}
+.avatar-container {
+    padding: 0px 24px 0px 24px;
+}
+.header-button {
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    border: 0px;
+    border-radius: 5%;
+    background-color:#4b5ebe ;
+    color: white;
+    text-align:center;
+}
+.about-container {
+    padding: 0px 24px 0px 24px;
+}
+.about-text {
+    padding-left: auto;
+    padding-right: auto;
+    color:#000 ;
+}
