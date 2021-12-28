@@ -82,3 +82,41 @@ padding: 0px 24px 0px 24px;
     padding-right: auto;
     color:#000 ;
 }
+.section-skill-container {
+    background-color: #f9f9fa;
+    padding-top:5rem ;
+    padding-bottom: 5rem;
+}
+.skills-list-container{
+    position: relative;
+    margin:0 ;
+padding:0 1.5rem ;
+    
+}
+.intro-skill{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.intro-title{
+    margin-bottom: 16px;
+    margin-top: 0px;
+    letter-spacing: -.02em;
+    font-weight: 700;
+    color: #4b5ebe;
+}
+.intro-text{
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4a5568;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.skill-list{
+    display: grid;
+    grid-template-columns: minmax(250px,520px);
+    
+}
+.tec-icon{
+    width: 20px;
+}
