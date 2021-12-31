@@ -106,8 +106,8 @@ padding:0 1.5rem ;
 }
 .intro-text{
     max-width: 30em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 46px;
+    margin-right: 46px;
     color: #4a5568;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -115,8 +115,81 @@ padding:0 1.5rem ;
 .skill-list{
     display: grid;
     grid-template-columns: minmax(250px,520px);
+    list-style: none;
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
     
+}
+.skills-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #333c66;
+    line-height: 1;
+    letter-spacing: -.02em;
+    margin-top: 0px;
+
+}
+.skills-title-content{
+
+}
+.skills-date{
+    font-size: 1.125rem;
+    color: #5b687b;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.skills-date::before{
+    content: "\2022";
+    color: #a0aec0;
+    margin-left: 0.5rem;
+    font-weight: 400;
+
 }
 .tec-icon{
     width: 20px;
+    margin-right: 16px;
+}
+.skills-text{
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    color: #5b687b;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+.skills-labels{
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+    padding-left: 0px;
+}
+.skills-tag1{
+    display: inline-block;
+    padding: 4.900px 8.400px 4.900px 8.400px;
+    border-radius: .25px solid 1px #000;
+    background-color: rgba(51, 61, 102,.07);
+    line-height: 1;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: .875rem; 
+    color:rgba(51, 61, 102, .8);
+}
+.skills-tags{
+    margin-left: .5rem;
+    display: inline-block;
+    padding: 4.900px 8.400px 4.900px 8.400px;
+    border-radius: .25px solid 1px #000;
+    background-color: rgba(51, 61, 102,.07);
+    line-height: 1;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: .875rem; 
+    color:rgba(51, 61, 102, .8);
+}
 }
